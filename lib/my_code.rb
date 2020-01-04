@@ -12,8 +12,12 @@ end
 
 def reduce(array, star_v=nil)
     if star_v = nil
-       value = star_v
+       num1 = 0 
+       i = 0
      else
+       num1 = array[0]
+       i = 1
+     end
        
        
     new = star_v
