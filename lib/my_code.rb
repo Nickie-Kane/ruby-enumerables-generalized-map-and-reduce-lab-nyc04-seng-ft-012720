@@ -19,7 +19,7 @@ def reduce(array, star_v=nil)
        i = 1
      end
     while i < array.length do
-      sum.push(yield(array[i]))
+      sum = yield(array[i])
     i += 1 
     end
     new
