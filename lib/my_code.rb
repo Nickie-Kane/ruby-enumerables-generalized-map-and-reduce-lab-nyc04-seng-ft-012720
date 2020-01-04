@@ -4,6 +4,7 @@ def map(array)
     new = []
     c = 0 
     while c < array.length do
-      c += 0 
+      
+    c += 0 
     end
 end
