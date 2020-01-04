@@ -11,7 +11,7 @@ def map(array)
 end
 
 def reduce(array, star_v=nil)
-    if new = nil
+    if star_v = nil
     new = star_v
     i = 0 
     while i < array.length do
