@@ -11,7 +11,7 @@ def map(array)
 end
 
 def reduce(array, star_v=nil)
-    if star_v = nil
+    if star_v
        sum = 0 
        i = 0
      else
