@@ -10,5 +10,5 @@ def map(array)
     new
 end
 
-def reduce(array)
+def reduce(array, star_v=nil)
 end
