@@ -12,7 +12,7 @@ end
 
 def reduce(array, star_v=nil)
     if star_v
-       sum = 0 
+       sum = star_v
        i = 0
      else
        sum = array[0]
