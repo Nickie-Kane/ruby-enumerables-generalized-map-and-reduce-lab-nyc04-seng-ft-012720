@@ -19,4 +19,7 @@ def reduce(array, star_v=nil)
     i += 1 
     end
     new
+  else
+    
+  end
 end
