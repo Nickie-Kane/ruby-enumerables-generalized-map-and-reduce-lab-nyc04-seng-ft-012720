@@ -3,7 +3,7 @@ require 'pry'
 def map(array)
     new = []
     i = 0 
-    while c < array.length do
+    while i < array.length do
       array.push(yield(array[i]))
     i += 1 
     end
