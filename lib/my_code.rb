@@ -12,10 +12,10 @@ end
 
 def reduce(array, star_v=nil)
     if star_v = nil
-       num1 = 0 
+       sum = 0 
        i = 0
      else
-       num1 = array[0]
+       sum = array[0]
        i = 1
      end
     while i < array.length do
